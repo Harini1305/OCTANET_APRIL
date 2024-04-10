@@ -1,0 +1,139 @@
+/* Resetting default margin and padding */
+body, h1, h2, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up default font and body background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0; /* Ensure no default margin on body */
+    padding-bottom: 100px; /* Space for the footer */
+}
+
+/* Styling header */
+#header {
+    background-image: url('homemanager.jpg');	
+    background-size: 1500px 300px;
+    background-color: #343a40;
+    color:#ffffff;
+    padding: 60px;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Styling tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    font-size: 1rem;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.tab:last-child {
+    margin-right: 0;
+}
+
+.tab:hover {
+    background-color: 	#191970;
+}
+
+/* Styling sections */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Styling about section */
+#about {
+    background-color: #fff;
+}
+
+/* Styling services section */
+#services {
+    background-color: #f8f9fa;
+}
+
+#services ul {
+    list-style: none;
+}
+
+#services li {
+    margin-bottom: 10px;
+}
+
+/* Styling contact section */
+#contact {
+    background-color:	#191970;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    height: 150px;
+}
+
+#contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: 	#191970;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling footer */
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:	#191970;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
